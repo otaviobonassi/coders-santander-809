@@ -1,0 +1,147 @@
+/* SELECT ALL */
+* {
+}
+
+/* SELECT ELEMENT */
+h1 {
+}
+
+/* SELECT CLASS */
+.class-name {
+}
+
+/* SELECT ID */
+#id-name {
+}
+
+/* ELEMENTO FILHO */
+body h1 {
+  color: purple;
+}
+
+/* ELEMENTO ADJACENTE */
+ul + li {
+}
+
+input[type="email"] {
+  background: lightsteelblue;
+}
+
+h1 {
+  /* font-size: 16px; */
+  /* font-size: 1em; */
+  /* font-size: 1rem; */
+  font-style: normal;
+  font-variant: small-caps;
+  font-weight: bold;
+  font-size: 100%;
+  font-family: "Courier New", Courier, monospace;
+
+  line-height: 2rem;
+
+  color: whitesmoke;
+
+  border: 5px solid royalblue;
+
+  text-align: right;
+
+  width: 500px;
+}
+
+p {
+  font: 400 0.9rem "Besley", serif;
+  color: turquoise;
+
+  text-transform: capitalize;
+
+  text-indent: 0.8rem;
+
+  letter-spacing: 6px;
+
+  line-height: 1rem;
+
+  width: 500px;
+}
+
+span {
+  border: 5px dotted royalblue;
+  width: 500px;
+}
+
+a {
+  text-decoration: none;
+  color: grey;
+  font: 2rem "Besley", serif;
+}
+
+a:hover {
+  color: honeydew;
+  background: hotpink;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li:last-child {
+  color: hotpink;
+}
+
+li:first-child {
+  color: blueviolet;
+}
+
+li:nth-child(3) {
+  color: cyan;
+}
+
+img {
+  width: 300px;
+  max-width: 500px;
+  max-height: 100px;
+}
+
+input {
+  border: 2px solid hotpink;
+  outline: none;
+  border-radius: 5px;
+}
+
+input:focus {
+  border: 2px solid tomato;
+  background: lightpink;
+}
+
+/* BOX MODEL NO SITE */
+
+.caixa {
+  display: inline;
+  margin: 20px;
+  box-sizing: content-box;
+  background: brown;
+  padding: 20px;
+  border: 10px solid dodgerblue;
+}
+
+.pai {
+  width: 100vw;
+  height: 30vh;
+  background: violet;
+}
+
+#caixa-1 {
+  background: royalblue;
+  width: 50vw;
+  height: 10vw;
+  position: sticky;
+  top: 0;
+}
+/* #caixa-1 {
+  background: royalblue;
+  width: 50vw;
+  height: 10vw;
+  position: fixed;
+  top: 0;
+} */
