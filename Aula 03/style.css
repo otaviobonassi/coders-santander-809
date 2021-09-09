@@ -1,0 +1,135 @@
+/* :root {
+  font-size: 25px;
+} */
+
+/* html {
+    font-size: 25px;
+} */
+
+/* .container {
+  font-size: 32px;
+} */
+
+/* #div1 {
+  font-size: 1rem;
+} */
+
+/* #div2 {
+  font-size: 1em;
+} */
+
+/* #div3 {
+  font-size: 32px;
+} */
+
+/* MEDIDAS: px, em, rem, %, vw, vh */
+
+div,
+h1,
+body {
+  margin: 0;
+}
+
+/* .container {
+  width: 100vw;
+  height: 100vh;
+  background: cyan;
+} */
+
+/* #div1 {
+  width: 50%;
+  height: 10vh;
+  margin-bottom: 1vh;
+  background: pink;
+} */
+
+/* POSITION: static, relative, absolute, fixed, sticky */
+
+/* .container {
+  width: 100vw;
+  height: 200vh;
+  background: cyan;
+} */
+
+/* #div1 {
+  width: 10vw;
+  height: 10vw;
+  background: pink;
+} */
+
+/* #div2 {
+  width: 100vw;
+  height: 13vw;
+  background: tomato;
+
+  position: fixed;
+} */
+
+/* #div3 {
+  width: 15vw;
+  height: 15vw;
+  background: greenyellow;
+} */
+
+/* FLEXBOX */
+
+/* .container {
+  display: flex;
+  width: 100vw;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+
+#div1 {
+  width: 25px;
+  background: pink;
+  flex-grow: 1;
+}
+
+#div2 {
+  width: 25px;
+  background: tomato;
+  flex-grow: 1;
+}
+
+#div3 {
+  width: 25px;
+  background: greenyellow;
+  flex-grow: 10;
+} */
+
+/* CSS GRID */
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  background: hotpink;
+
+  display: grid;
+  /* grid-template-columns: 100px 800px; */
+  grid-template-columns: 1fr auto;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-gap: 10px;
+
+  grid-template-areas:
+    "aside main"
+    "aside2 main2"
+    "aside3 main3";
+}
+
+#div1 {
+  width: 100%;
+  background: pink;
+  grid-area: aside;
+}
+
+#div2 {
+  width: 100%;
+  background: tomato;
+}
+
+#div3 {
+  width: 100%;
+  background: greenyellow;
+  grid-area: main3;
+}
