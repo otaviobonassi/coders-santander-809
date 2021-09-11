@@ -1,0 +1,48 @@
+:root {
+  font-size: 16px;
+  font-family: "Urbanist", sans-serif;
+}
+
+body {
+  padding: 4vw;
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+p {
+  font-size: 0.9rem;
+}
+
+header {
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2vw;
+  position: relative;
+}
+
+header p {
+  position: absolute;
+  bottom: 0;
+  transform: translateY(50%);
+  background-color: white;
+  padding: 1vw;
+}
+
+main {
+  margin-top: 5vh;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.left {
+  width: 50vw;
+}
+
+.right {
+  width: 30vw;
+}
