@@ -1,0 +1,52 @@
+:root {
+  --new-purple: #9009c5;
+  font-size: 16px;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+div {
+  width: 30vw;
+  height: 10vw;
+}
+
+#div1 {
+  background: #9009c5;
+  transition: width 1s linear 2s, background 2s linear; /*propriedade tempo-duração timing-function delay*/
+}
+
+#div1:hover {
+  width: 50vw;
+  background: red;
+}
+
+#div2 {
+  animation: backgroundColor 1s linear 0s infinite alternate none;
+  background: #9009c5;
+  /*nome duração timing-function delay direction fill-mode*/
+}
+
+@keyframes backgroundColor {
+  from {
+    background: tomato;
+  }
+  to {
+    background: powderblue;
+    width: 40vw;
+  }
+}
+
+@media screen and (min-width: 375px) {
+  :root {
+    font-size: 8px;
+    --new-purple: red;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  :root {
+    font-size: 32px;
+  }
+}
