@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <form action="outofhere" method="GET" name="major__form">
+            <input type="text" name="text__input" class="text__input" />
+            <fieldset class="checkbox">
+              <legend>Checkboxes</legend>
+              <label for="text__checkbox">Checkbox</label>
+              <input
+                type="checkbox"
+                name="text__checkbox"
+                class="text__checkbox"
+                id="text__checkbox"
+              />
+            </fieldset>
+            <fieldset class="radios">
+              <legend>Radios</legend>
+              <p>
+                <input type="radio" name="size" id="size_1" value="small" />
+                <label for="size_1">Small</label>
+              </p>
+              <p>
+                <input type="radio" name="size" id="size_2" value="medium" />
+                <label for="size_2">Medium</label>
+              </p>
+              <p>
+                <input type="radio" name="size" id="size_3" value="large" />
+                <label for="size_3">Large</label>
+              </p>
+            </fieldset>
+            <fieldset>
+              <legend>Selects</legend>
+              <select name="Country" size="5">
+                <option value="USA">USA</option>
+                <option value="Russia">Russia</option>
+                <option value="India">India</option>
+                <option value="Britain">Britain</option>
+              </select>
+            </fieldset>
+            <button type="button">Botão Normal</button>
+            <button type="submit">Botão Submit</button>
+          </form>
+    </div>
+    <script src="live-javascriptEvents.js"></script>
+</body>
+</html>
