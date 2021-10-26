@@ -23,56 +23,6 @@
 // Relacionados ao mouse: click, mousedown, mouseup, mouseenter, mouseover, mouseleave
 // Relacionados ao form: submit (atenção ao event.preventDefault() para bloquear o envio automático do form)
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 const div = document.querySelector(".container")
 div.addEventListener('click', () => {
     console.log("cliquei no pai")
